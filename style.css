@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #fff0c2 , #bf2710, #202328 );
+}
+.g3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+.grad {
+  height: 1000px;
+}
+.start {
+    font-family: Montserrat;
+    position: relative;
+    top: 15rem;
+    display: flex;
+    justify-content: center;
+}
