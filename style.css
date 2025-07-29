@@ -60,7 +60,7 @@ body {
   font-family: Montserrat;
   color: #202328 ;
   position: relative;
-  bottom: 46.5rem;
+  bottom: 46rem;
   right: 3.5rem;
 }
 .rect {
@@ -68,10 +68,16 @@ body {
   top: 1.2rem;
   left: 7rem;
 }
+.lines {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  bottom: 47rem;
+}
 .line1 {
   position: relative;
-  bottom: 36rem;
-  right: 7.5rem;
+  left: 20rem;
   height: 1px;
   width: 185px;
   background-color: black;
@@ -93,19 +99,14 @@ body {
 }
 .line2 {
   position: relative;
-  bottom: 45.3rem;
-  left: 7.5rem;
+  right: 20rem;
   height: 1px;
   width: 185px;
   background-color: black;
   border: none;
 }
 .or {
-  display: flex;
-  align-items: center;
   position: relative;
-  bottom: 48rem;
-  left: 49rem;
   font-family: Montserrat;
   font-size: 20px;
 }
@@ -125,6 +126,6 @@ body {
 }
 .google {
   position: relative;
-  bottom: 43.7rem;
+  bottom: 44.5rem;
   right: 25rem;
 }
