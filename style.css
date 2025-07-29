@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to bottom, #fff0c2 , #bf2710, #202328 );
+  background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
 }
 .g3{
     display: flex;
@@ -25,31 +25,106 @@ body {
   display: flex;
   justify-content: center;
 }
-.log {
+.enter {
   background-color: #FFF0C2;
   padding: 20px 150px;
   border-radius: 20px;
   color: #202328;
+  opacity: 75%;
+  font-weight: 400;
   position: relative;
   bottom: 45rem;
   font-family: Montserrat;
 }
 .container2 {
   display: flex;
-  justify-content: center;
+  justify-content: center;  
 }
-.sign {
+.pass {
   background-color: #BF2710;
-  padding: 20px 140px;
+  padding: 20px 125px;
   border-radius: 20px;
-  color: #202328;
+  color: #FFF0C2;
+  font-weight: 400;
+  opacity: 75%;
   position: relative;
   bottom: 45rem;
   font-family: Montserrat;
 }
-.without {
+.remember {
+  font-weight: normal;
+  font-size: 16px;
   display: flex;
   justify-content: center;
+  gap: 120px;
   font-family: Montserrat;
-  color: #FFF0C2 ;
+  color: #202328 ;
+  position: relative;
+  bottom: 46.5rem;
+  right: 3.5rem;
+}
+.rect {
+  position: relative;
+  top: 1.2rem;
+  left: 7rem;
+}
+.line1 {
+  position: relative;
+  bottom: 36rem;
+  right: 7.5rem;
+  height: 1px;
+  width: 185px;
+  background-color: black;
+  border: none;
+}
+.container3 {
+  display: flex;
+  justify-content: center;  
+}
+.log {
+  background-color: #BF2710;
+  padding: 20px 177px;
+  border-radius: 20px;
+  color: #FFF0C2;
+  font-weight: 600;
+  position: relative;
+  bottom: 47rem;
+  font-family: Montserrat;
+}
+.line2 {
+  position: relative;
+  bottom: 45.3rem;
+  left: 7.5rem;
+  height: 1px;
+  width: 185px;
+  background-color: black;
+  border: none;
+}
+.or {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 48rem;
+  left: 49rem;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.container4 {
+  display: flex;
+  justify-content: center;  
+}
+.continue {
+  background-color: #FFF0C2;
+  padding: 20px 80px;
+  border-radius: 20px;
+  color: #202328;
+  font-weight: 600;
+  position: relative;
+  bottom: 47rem;
+  font-family: Montserrat;
+}
+.google {
+  position: relative;
+  bottom: 43.7rem;
+  right: 25rem;
 }
