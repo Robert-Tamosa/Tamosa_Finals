@@ -1,16 +1,16 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
 }
-.g3{
+.grad {
+    height: 600px;
+}
+.g3 {
     display: flex;
     justify-content: center;
     position: relative;
     top: 1rem;
-}
-.grad {
-  height: 600px;
 }
 .start >h1 {
   font-weight: 800;
@@ -18,7 +18,7 @@ body {
 .start {
     font-family: Inter;
     position: relative;
-    top: 8rem;
+    
     display: flex;
     justify-content: center;
     color: #202328;
@@ -37,7 +37,7 @@ body {
   color: #202328;
   font-weight: 400;
   position: relative;
-  bottom: 30rem;
+  
   font-family: Inter;
 }
 .container2 >h2 {
@@ -54,7 +54,7 @@ body {
   color: #FFF0C2;
   font-weight: 400;
   position: relative;
-  bottom: 30rem;
+  
   font-family: Inter;
 }
 .remember {
@@ -66,17 +66,16 @@ body {
   font-family: Inter;
   color: #202328 ;
   position: relative;
-  bottom: 31.5rem;
+  ;
   right: 3.5rem;
 }
 .rect {
   position: relative;
-  top: 1.2rem;
+  
   left: 7rem;
 }
 .lines {
   position: relative;
-  bottom: 20rem;
   display: flex;
   justify-content: center;
 }
@@ -99,7 +98,6 @@ body {
   color: #FFF0C2;
   font-weight: 600;
   position: relative;
-  bottom: 37rem;
   font-family: Inter;
 }
 .line2 {
@@ -112,7 +110,6 @@ body {
 }
 .or {
   position: relative;
-  bottom: 2rem;
   font-family: Inter;
   font-size: 20px;
 }
@@ -127,7 +124,6 @@ body {
   color: #202328;
   font-weight: 600;
   position: relative;
-  bottom: 33rem;
   left: 1rem;
   font-family: Inter;
 }
@@ -136,7 +132,7 @@ body {
 }
 .google {
   position: relative;
-  bottom: 29.7rem;
+  
   right: 22rem;
 }
 .sign {
@@ -146,8 +142,90 @@ body {
   font-family: Inter;
   font-size: 12px;
   position: relative;
-  bottom: 39rem;
 }
 .sign > a{
   color: #FFF0C2;
+}
+.signin {
+    display: flex;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 4rem;
+}
+.line1 {
+    width: 500px;
+}
+.choose {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+}
+.routhing {
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    bottom: 4rem;
+}
+.name {
+    color: #000DFF;
+    margin-left: 3px;
+}
+.tamosa{
+    font-family: Inter;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5rem;
+}
+.gmail {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    position: relative;
+    bottom: 8.5rem;
+}
+.use{
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 22px;
+    position: relative;
+    bottom: 9rem;
+}
+.line2 {
+    width: 400px;
+    position: relative;
+    bottom: 7rem;
+}
+.terms {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    bottom: 7rem;
+    left: 4.3rem;
+    width: 370px;
+    
+}
+.back {
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 48rem;
+    top: 5rem;
+}
+.page {
+    display: flex;
 }

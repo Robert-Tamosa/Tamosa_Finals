@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
+}
+.g3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+}
+.grad {
+    height: 600px;
+}
+.create {
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+.create >h1 {
+    font-weight: 800;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container >h2 {
+    color: rgba( 32, 35, 40, 0.5);
+}
+.enter {
+  background-color: #FFF0C2;
+  padding: 20px 150px;
+  border-radius: 20px;
+  color: #202328;
+  font-weight: 400;
+  position: relative;
+  top: 12rem;
+  left: 1rem;
+  font-family: Inter;
+}
+.mail {
+    position: relative;
+    top: 15rem;
+    right: 24rem;
+}
+.container2 >h2 {
+    color: rgba( 255, 240, 194, 0.5);
+}
+.container2 {
+  display: flex;
+  justify-content: center;  
+}
+.lock {
+    position: relative;
+    right: 23.5rem;
+    top: 15rem;
+}
+.visi {
+    position: relative;
+    top: 15.5rem;
+    right: 3.5rem;
+}
+.pass {
+  background-color: #BF2710;
+  padding: 20px 125px;
+  border-radius: 20px;
+  color: #FFF0C2;
+  font-weight: 400;
+  position: relative;
+  top: 12rem;
+  left: 1.7rem;
+  font-family: Inter;
+}
+.container3 {
+  display: flex;
+  justify-content: center;  
+}
+.log {
+  background-color: #BF2710;
+  padding: 20px 125px;
+  border-radius: 20px;
+  color: #FFF0C2;
+  font-weight: 700;
+  position: relative;
+  top: 12rem;
+  font-family: Inter;
+}
