@@ -13,9 +13,6 @@ body {
     align-items: center;
     gap: 450px;
 }
-.profile {
-    
-}
 .right-header{
     display: flex;
     justify-content: center;

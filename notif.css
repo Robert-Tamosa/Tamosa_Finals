@@ -6,3 +6,43 @@ body {
 .grad {
     height: 600px;
 }
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #202328;
+    font-family: Inter;
+    gap: 390px;
+    position: relative;
+    top: 1.5rem;
+}
+.right-header {
+    display: flex;
+    gap: 100px;
+}
+.right-header >a {
+    color: #202328;
+    text-decoration: none;
+}
+.right-header >h2:nth-child(2) {
+    text-decoration: underline;
+}
+.line {
+    background-color: black;
+    height: 1px;
+    border: none;
+    position: relative;
+    top: 2rem;
+}
+.started {
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    top: 10rem;
+    font-weight:400;
+    background:#fff0c2;
+    border: 1px solid black;
+}
