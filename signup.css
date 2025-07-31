@@ -87,3 +87,6 @@ body {
   top: 12rem;
   font-family: Inter;
 }
+.container3 >a {
+  text-decoration: none;
+}

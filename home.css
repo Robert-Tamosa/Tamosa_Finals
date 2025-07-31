@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
+}
+.grad {
+    height: 600px;
+}
+.header {
+    display: flex;
+    font-family: Inter;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+}
+.profile {
+    
+}
+.right-header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.right-header > h2:first-child {
+        text-decoration: underline;
+}
+.right-header > a {
+    color: #202328;
+    text-decoration: none;
+}
+.line1 {
+    position: relative;
+    bottom: 1rem;
+    background-color: black;
+    border: none;
+    height: 1px;
+}
+.no {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 3rem;
+    font-family: Inter;
+    font-size: 24px;
+}
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: Inter;
+    background: rgba(114, 114, 114, 50%);
+    border: 1px solid black;
+}
+.add > img {
+    height: 50px;
+}

@@ -1,0 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
+}
+.grad {
+    height: 600px;
+}

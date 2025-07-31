@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
+}
+.g3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+}
+.grad {
+  height: 600px;
+}
+.start >h1 {
+  font-weight: 800;
+}
+.start {
+    font-family: Inter;
+    position: relative;
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    color: #202328;
+}
+.container >h2 {
+    color: rgba( 32, 35, 40, 0.5);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.enter {
+  background-color: #FFF0C2;
+  padding: 20px 150px;
+  border-radius: 20px;
+  color: #202328;
+  font-weight: 400;
+  position: relative;
+  bottom: 30rem;
+  font-family: Inter;
+}
+.container2 >h2 {
+    color: rgba( 255, 240, 194, 0.5);
+}
+.container2 {
+  display: flex;
+  justify-content: center;  
+}
+.pass {
+  background-color: #BF2710;
+  padding: 20px 125px;
+  border-radius: 20px;
+  color: #FFF0C2;
+  font-weight: 400;
+  position: relative;
+  bottom: 30rem;
+  font-family: Inter;
+}
+.remember {
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  font-family: Inter;
+  color: #202328 ;
+  position: relative;
+  bottom: 31.5rem;
+  right: 3.5rem;
+}
+.rect {
+  position: relative;
+  top: 1.2rem;
+  left: 7rem;
+}
+.lines {
+  position: relative;
+  bottom: 20rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.line1 {
+  position: relative;
+  left: 23.5rem;
+  height: 1px;
+  width: 170px;
+  background-color: black;
+  border: none;
+}
+.container3 {
+  display: flex;
+  justify-content: center;  
+}
+.log {
+  background-color: #BF2710;
+  padding: 20px 177px;
+  border-radius: 20px;
+  color: #FFF0C2;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  bottom: 37rem;
+  font-family: Inter;
+}
+.line2 {
+  position: relative;
+  right: 23.5rem;
+  height: 1px;
+  width: 170px;
+  background-color: black;
+  border: none;
+}
+.or {
+  position: relative;
+  bottom: 2rem;
+  font-family: Inter;
+  font-size: 20px;
+}
+.container4 {
+  display: flex;
+  justify-content: center;  
+}
+.continue {
+  background-color: #FFF0C2;
+  padding: 20px 85px;
+  border-radius: 20px;
+  color: #202328;
+  font-weight: 600;
+  position: relative;
+  bottom: 35rem;
+  left: 1rem;
+  font-family: Inter;
+}
+.container4 > a {
+  text-decoration: none;
+}
+.google {
+  position: relative;
+  bottom: 31.7rem;
+  right: 22rem;
+}
+.sign {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-family: Inter;
+  font-size: 12px;
+  position: relative;
+  bottom: 39rem;
+}
+.sign > a{
+  color: #FFF0C2;
+}
