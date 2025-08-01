@@ -33,15 +33,76 @@ body {
     background:#fff0c2;
     border-radius: 20px;
 }
-.calendar >img{
-    height: 35px;
+.calendar >a{
+    height: 30px;
     position:relative;
     left: 3rem;
-    top: 7px;
+    top: 8px;
 }
 .top {
-display: flex;
-justify-content: center;
-font-family: Inter;
-font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 35rem;
+    font-family: Inter;
+}
+.task {
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    font-family: Inter;
+    position: relative;
+    top: 3rem;
+}
+.task > h2 {
+    font-weight: 400;
+    background: #bf2710;
+    padding: 0 80px;
+    border-radius: 30px;
+    color: rgba(255, 240, 194, 50%);
+}
+.task >img {
+    display: flex;
+    height: 30px;
+    position: relative;
+    top: 1rem;
+}
+.line {
+    display: flex;
+    background-color: black;
+    border: none;
+    height: 1px;
+    width: 750px;
+    position: relative;
+    bottom: 7rem;
+}
+.line2 {
+    display: flex;
+    width: 130px;
+    background-color: black;
+    border: none;
+    height: 1px;
+    position: relative;
+    left: 20rem;
+
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    top: 8rem;
+    right: 16rem;
+}
+.container {
+    background: #fff0c2;
+    height: 500px;
+    padding: 0 20px;
+    border-radius: 30px;
+}
+.routine {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20rem;
+    font-family: Inter;
 }

@@ -78,7 +78,8 @@ body {
   position: relative;
   bottom: 20rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 80px;
 }
 .line1 {
   position: relative;
@@ -97,6 +98,7 @@ body {
   padding: 20px 177px;
   border-radius: 20px;
   color: #FFF0C2;
+  text-decoration: none;
   font-weight: 600;
   position: relative;
   bottom: 37rem;
@@ -127,7 +129,7 @@ body {
   color: #202328;
   font-weight: 600;
   position: relative;
-  bottom: 33rem;
+  bottom: 35rem;
   left: 1rem;
   font-family: Inter;
 }
@@ -136,7 +138,7 @@ body {
 }
 .google {
   position: relative;
-  bottom: 29.7rem;
+  bottom: 31.7rem;
   right: 22rem;
 }
 .sign {

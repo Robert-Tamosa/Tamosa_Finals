@@ -4,7 +4,7 @@ body {
     background-image: linear-gradient(to bottom, #fff0c2 20%, #bf2710, #202328 );
 }
 .grad {
-    height: 600px;
+    height: 800px;
 }
 .header {
     display: flex;
