@@ -93,6 +93,9 @@ body {
   display: flex;
   justify-content: center;  
 }
+.container3 > a {
+  text-decoration: none;
+}
 .log {
   background-color: #BF2710;
   padding: 20px 177px;
